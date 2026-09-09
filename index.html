@@ -1,30 +1,73 @@
-<!doctype html><html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Elektro Auto Servis</title>
+<meta name="description" content="Autoelektrika, diagnostika, autobatérie, klimatizácia, brzdy a jednoduchší servis.">
 <style>
-:root{--bg:#090d10;--panel:#11181d;--line:#30383d;--text:#f5f5f5;--muted:#aeb6bb;--red:#ff312e}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif}a{text-decoration:none;color:inherit}.wrap{max-width:1240px;margin:auto;padding:0 22px}
-header{position:sticky;top:0;z-index:20;background:rgba(7,10,12,.95);border-bottom:1px solid #1d2428}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;font-size:20px}.brand span{color:var(--red)}.menu{display:flex;gap:22px;font-size:14px}.btn{display:inline-flex;background:var(--red);padding:13px 18px;border-radius:7px;font-weight:800}.btn.dark{background:#171e23;border:1px solid #495258}
-.hero{min-height:520px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(5,8,10,.98),rgba(5,8,10,.82) 42%,rgba(5,8,10,.28) 76%),url('garage.jpg') center/cover no-repeat}.hero-content{padding:72px 0;max-width:650px}.kicker{font-size:12px;letter-spacing:2px;color:#c8ced1;font-weight:800}
-h1{font-size:62px;line-height:.98;margin:15px 0 18px;text-transform:uppercase}h1 em{font-style:normal;color:var(--red)}.lead{font-size:18px;line-height:1.55;color:#d0d5d8}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.section{padding:40px 0}.section h2{font-size:29px}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.service{background:linear-gradient(180deg,#151d22,#11171b);border:1px solid var(--line);border-radius:9px;padding:18px}.service h3{margin:0 0 8px}.service p{font-size:13px;line-height:1.5;color:var(--muted)}.price{color:var(--red);font-weight:900}
-.panel{background:#11181d;border:1px solid var(--line);border-radius:10px;padding:32px;text-align:center}.panel p{color:var(--muted);line-height:1.6}.contact{display:grid;grid-template-columns:1fr auto;align-items:center;gap:20px;text-align:left;border-left:3px solid var(--red)}.phone{font-size:22px;font-weight:900}
-footer{border-top:1px solid #222b30;padding:22px 0;color:#8f979c;font-size:12px}
-@media(max-width:900px){.menu{display:none}.nav>.btn{display:none}h1{font-size:46px}.services{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.wrap{padding:0 16px}.hero{min-height:auto;background-position:62% center}.hero-content{padding:54px 0}h1{font-size:38px}.lead{font-size:16px}.actions{flex-direction:column}.actions .btn{width:100%;justify-content:center}.services{grid-template-columns:1fr}.contact{grid-template-columns:1fr}.contact .btn{justify-content:center}}
-</style></head><body>
-<header><div class="wrap nav"><div class="brand"><span>ELEKTRO</span> AUTO SERVIS</div><nav class="menu"><a href="#domov">Domov</a><a href="#sluzby">Služby</a><a href="#objednavka">Objednávka</a><a href="#kontakt">Kontakt</a></nav><a class="btn" href="#kontakt">Kontakt</a></div></header>
-<section class="hero" id="domov"><div class="wrap"><div class="hero-content"><div class="kicker">SPOĽAHLIVOSŤ • ODBORNOSŤ • FÉROVÉ CENY</div><h1>Váš partner<br>pre spoľahlivé<br><em>auto</em></h1><p class="lead">Autoelektrika, diagnostika, autobatérie, klimatizácia, brzdy a jednoduchší servis na jednom mieste.</p><div class="actions"><a class="btn" href="#kontakt">Kontaktovať servis →</a><a class="btn dark" href="tel:+421917686673">☎ +421 917 686 673</a></div></div></div></section>
-<section class="section" id="sluzby"><div class="wrap"><h2>NAŠE SLUŽBY</h2><div class="services">
-<div class="service"><h3>⚙ Diagnostika</h3><p>Čítanie chýb, základná analýza a kontrola systémov vozidla.</p><div class="price">od 20 €</div></div>
-<div class="service"><h3>⚡ Autoelektrika</h3><p>Osvetlenie, dobíjanie, štartovanie a jednoduchšie elektro opravy.</p><div class="price">od 30 €/hod.</div></div>
-<div class="service"><h3>🔋 Autobatérie</h3><p>Test, nabíjanie, výmena a kontrola dobíjacieho systému.</p><div class="price">od 10 €</div></div>
-<div class="service"><h3>❄ Klimatizácia</h3><p>Kontrola funkčnosti a plnenie klimatizácie podľa typu vozidla.</p><div class="price">od 59 €</div></div>
-<div class="service"><h3>🛞 Servis bŕzd</h3><p>Výmena platničiek, kotúčov a základná kontrola bŕzd.</p><div class="price">od 30 €</div></div>
-<div class="service"><h3>🛢 Olej a filtre</h3><p>Výmena motorového oleja a bežných filtrov.</p><div class="price">od 25 €</div></div>
-<div class="service"><h3>💡 Drobné výmeny</h3><p>Žiarovky, stierače, poistky a ďalšie jednoduché úkony.</p><div class="price">od 10 €</div></div>
-<div class="service"><h3>🔧 Menší servis</h3><p>Jednoduchšie mechanické práce podľa dohody.</p><div class="price">od 20 €</div></div>
+:root{--bg:#070b0e;--panel:#10171c;--line:#263038;--text:#f5f7f8;--muted:#aeb7bd;--red:#ff312e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+a{text-decoration:none;color:inherit}.wrap{max-width:1240px;margin:auto;padding:0 24px}
+header{position:sticky;top:0;z-index:50;background:rgba(4,7,9,.96);backdrop-filter:blur(12px);border-bottom:1px solid #20282e}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:20px;font-weight:900}.brand span{color:var(--red)}
+.menu{display:flex;gap:26px;font-size:14px;color:#d3d8db}.menu a:hover{color:var(--red)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:8px;background:var(--red);font-weight:800}
+.btn.alt{background:#151c21;border:1px solid #485159}
+.hero{min-height:570px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(4,7,9,.96) 0%,rgba(4,7,9,.82) 37%,rgba(4,7,9,.28) 72%,rgba(4,7,9,.45) 100%),url('garage.jpg') center/cover no-repeat;border-bottom:1px solid #232c31}
+.hero-content{max-width:650px;padding:78px 0}.kicker{font-size:12px;letter-spacing:2.5px;color:#c5ccd0;font-weight:800}
+h1{font-size:64px;line-height:.98;margin:16px 0 20px;text-transform:uppercase;text-shadow:0 6px 30px #000}h1 em{font-style:normal;color:var(--red)}
+.lead{font-size:18px;line-height:1.55;color:#d0d6d9;max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:34px;font-size:13px;color:#c2c9cc}.trust b{display:block;color:#fff;margin-bottom:4px}
+.section{padding:50px 0}.head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:22px}.head h2{font-size:30px;margin:0}.head p{color:#8f9aa0;margin:0}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{overflow:hidden;border:1px solid var(--line);background:linear-gradient(180deg,#11191e,#0d1317);border-radius:10px}
+.card img{width:100%;height:155px;object-fit:cover;display:block}.card-body{padding:16px}.card h3{font-size:18px;margin:0 0 8px}.card p{font-size:13px;line-height:1.5;color:var(--muted);min-height:58px;margin:0}.price{font-size:18px;color:var(--red);font-weight:900;margin-top:12px}
+.preparing{border-top:1px solid #252e34}.panel{background:#10171c;border:1px solid var(--line);border-radius:10px;padding:34px;text-align:center}.panel p{max-width:720px;margin:0 auto 20px;color:var(--muted);line-height:1.6}
+.contact{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;text-align:left;border-left:3px solid var(--red)}.phone{font-size:24px;font-weight:900}
+footer{border-top:1px solid #222b30;padding:24px 0;color:#89949a;font-size:12px}
+@media(max-width:900px){.menu{display:none}.nav>.btn{display:none}.services{grid-template-columns:repeat(2,1fr)}h1{font-size:47px}.trust{grid-template-columns:1fr}}
+@media(max-width:560px){.wrap{padding:0 16px}.hero{min-height:auto;background-position:62% center}.hero-content{padding:58px 0}.kicker{font-size:10px;letter-spacing:1.7px}h1{font-size:39px}.lead{font-size:16px}.actions{flex-direction:column}.actions .btn{width:100%}.services{grid-template-columns:1fr}.card img{height:190px}.card p{min-height:0}.contact{grid-template-columns:1fr}.contact .btn{width:100%}.head{display:block}.head p{margin-top:7px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<div class="brand"><span>ELEKTRO</span> AUTO SERVIS</div>
+<nav class="menu"><a href="#domov">Domov</a><a href="#sluzby">Služby</a><a href="#objednavka">Objednávka</a><a href="#kontakt">Kontakt</a></nav>
+<a class="btn" href="#kontakt">☎ Kontakt</a>
+</div></header>
+
+<section class="hero" id="domov"><div class="wrap"><div class="hero-content">
+<div class="kicker">SPOĽAHLIVOSŤ • ODBORNOSŤ • FÉROVÉ CENY</div>
+<h1>Váš partner<br>pre spoľahlivé<br><em>auto</em></h1>
+<p class="lead">Autoelektrika, diagnostika, autobatérie, klimatizácia, brzdy a jednoduchší servis na jednom mieste.</p>
+<div class="actions"><a class="btn" href="#kontakt">Kontaktovať servis →</a><a class="btn alt" href="tel:+421917686673">☎ +421 917 686 673</a></div>
+<div class="trust"><div><b>⚙ Kvalitná práca</b>Najprv zistíme problém, potom opravujeme.</div><div><b>🔧 Odbornosť</b>Zameranie na elektro, diagnostiku a bežný servis.</div><div><b>🤝 Férové ceny</b>Bez zbytočných výmen dielov.</div></div>
 </div></div></section>
-<section class="section" id="objednavka"><div class="wrap"><div class="panel"><div class="kicker">PRIPRAVUJEME</div><h2>ONLINE OBJEDNÁVANIE</h2><p>Online rezervácie spustíme spolu s otvorením prevádzky. Presná adresa a termín otvorenia budú doplnené neskôr.</p><a class="btn" href="tel:+421917686673">☎ +421 917 686 673</a></div></div></section>
-<section class="section" id="kontakt"><div class="wrap"><div class="panel contact"><div><h2>KONTAKT</h2><div class="phone">+421 917 686 673</div><p>Sútovo / Martin • e-mail doplníme neskôr</p></div><a class="btn" href="tel:+421917686673">Zavolať do servisu</a></div></div></section>
+
+<section class="section" id="sluzby"><div class="wrap">
+<div class="head"><h2>NAŠE SLUŽBY</h2><p>Každá služba má vlastný prehľad a orientačnú cenu.</p></div>
+<div class="services">
+<div class="card"><img src="diagnostika.jpg" alt="Diagnostika vozidla"><div class="card-body"><h3>⚙ Diagnostika</h3><p>Čítanie chýb, základná analýza a kontrola systémov vozidla.</p><div class="price">od 20 €</div></div></div>
+<div class="card"><img src="autoelektrika.jpg" alt="Autoelektrika"><div class="card-body"><h3>⚡ Autoelektrika</h3><p>Osvetlenie, dobíjanie, štartovanie a jednoduchšie elektro opravy.</p><div class="price">od 30 €/hod.</div></div></div>
+<div class="card"><img src="bateria.jpg" alt="Autobatéria"><div class="card-body"><h3>🔋 Autobatérie</h3><p>Test, nabíjanie, výmena a kontrola dobíjacieho systému.</p><div class="price">od 10 €</div></div></div>
+<div class="card"><img src="klima.jpg" alt="Klimatizácia"><div class="card-body"><h3>❄ Klimatizácia</h3><p>Kontrola funkčnosti a plnenie klimatizácie podľa typu vozidla.</p><div class="price">od 59 €</div></div></div>
+<div class="card"><img src="brzdy.jpg" alt="Servis bŕzd"><div class="card-body"><h3>🛞 Servis bŕzd</h3><p>Výmena platničiek, kotúčov a základná kontrola brzdovej sústavy.</p><div class="price">od 30 €</div></div></div>
+<div class="card"><img src="olej.jpg" alt="Výmena oleja a filtrov"><div class="card-body"><h3>🛢 Olej a filtre</h3><p>Výmena motorového oleja a bežných filtrov.</p><div class="price">od 25 €</div></div></div>
+<div class="card"><img src="drobne.jpg" alt="Drobné výmeny"><div class="card-body"><h3>💡 Drobné výmeny</h3><p>Žiarovky, stierače, poistky a ďalšie jednoduché servisné úkony.</p><div class="price">od 10 €</div></div></div>
+<div class="card"><img src="mensi.jpg" alt="Menší servis"><div class="card-body"><h3>🔧 Menší servis</h3><p>Jednoduchšie mechanické práce podľa dohody a typu vozidla.</p><div class="price">od 20 €</div></div></div>
+</div></div></section>
+
+<section class="section preparing" id="objednavka"><div class="wrap"><div class="panel">
+<div class="kicker">PRIPRAVUJEME</div><h2>ONLINE OBJEDNÁVANIE</h2>
+<p>Online rezervácie spustíme spolu s otvorením prevádzky. Presná adresa prevádzky a termín otvorenia budú doplnené neskôr.</p>
+<a class="btn" href="tel:+421917686673">☎ +421 917 686 673</a>
+</div></div></section>
+
+<section class="section" id="kontakt"><div class="wrap"><div class="panel contact">
+<div><h2>KONTAKT</h2><div class="phone">+421 917 686 673</div><p>Sútovo / Martin • e-mail doplníme neskôr</p></div>
+<a class="btn" href="tel:+421917686673">Zavolať do servisu</a>
+</div></div></section>
+
 <footer><div class="wrap">© 2026 Elektro Auto Servis • pripravujeme pre rok 2027</div></footer>
 </body></html>
